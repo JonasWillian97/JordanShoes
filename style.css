@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+.discount-announcement{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    background: rgba(33, 18, 33, 0.955);
+    color: #fff;
+}
+
+.discount-announcement-title{
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 40%;
+}
+
+.container-header{
+    width: 100%;
+    height: 23.625rem;
+    justify-content: center;
+    background-image: url(https://static.mybookcard.com/Content/uploads/static/a0b27ce6faca490c89893c7bd084cf17/_imgs/080bb6de_8e7d_4df3_a545_70bae8784d08.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.2);
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.container-logo-title{
+    font-size: 1.5rem;
+    margin: 0.4375rem 1rem;
+}
+
+.container-slogan{
+    height: calc(100% -3rem);
+    max-width: 1120px;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    
+}
+
+.container-slogan-title{
+    font-size: 2rem;
+    margin-bottom: 1.1875rem;
+}
+
+.container-slogan-description{
+    max-width: 28.125rem;
+    line-height: 196%;
+}
+
+
+.container-main{
+    padding: 3.625rem 1rem;
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-main-title{
+    margin-bottom: 1rem;
+}
+
+.container-main-description{
+    margin-bottom: 3.625rem;
+}
+
+
+.container-items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 1rem;
+}
+
+.content-item{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    background: rgba(221, 221, 221, 1);
+    transition: .2s transform;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+.circle-background-one{
+    z-index: 0;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.496);
+}
+.circle-background-two{
+    z-index: 0;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.496);
+}
+
+.circle-background-three{
+    z-index: 0;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.496);
+}
+
+.circle-background-four{
+    z-index: 0;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.496);
+}
+
+.circle-background-five{
+    z-index: 0;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.496);
+}
+
+.content-item:hover{
+    transform: scale(1.05);
+}
+
+.img{
+    width: 100%;
+    z-index: 1;
+    transition: .3s transform;
+}
+
+.img:hover{
+    transform: scale(1.2);
+}
+
+.logo{
+    transition: .3s transform;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.foot{
+    font-size: 18px;
+    background: rgba(33, 18, 33, 0.955);
+    color: #fff;
+    text-align: center;
+}
